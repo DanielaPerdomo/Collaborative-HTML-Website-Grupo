@@ -1,5 +1,5 @@
 <!-- your html code here -->
-<div class="container border-top mt-4">
+<div class="container border-top mt-8">
     <div class="row">
         <div class="col p-5">
             <h1> Contact </h1>
@@ -11,17 +11,20 @@
 
     <div class="row d-flex">
         <div class="col">
-            <form class="border p-5 bg-light w-75 m-auto">
+            <form class="border p-3 bg-light w-75 m-auto">
                 <div class="mb-3 row">
-                    <label for="exampleFormControlInput1" class="col-sm-2 col-form-label"><span class="float-end">Email</span></label>
+                    <label for="exampleFormControlInput1" class="col-sm-2 col-form-label"><span class="float-end"><strong>Your E-mail</strong></span></label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
                     </div>
                   </div>
                   <div class="mb-3 row">
-                    <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label"><span class="float-end"> Password</span></label>
+                    <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label"><span class="float-end"><strong>Your message</strong></span></label>
                     <div class="col-sm-10">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your message here..."></textarea>
+                        <div class="float-end mt-10px">
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                        </div>
                     </div>
                   </div>
             </form>
